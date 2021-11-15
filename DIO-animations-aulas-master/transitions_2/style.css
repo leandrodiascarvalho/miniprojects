@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: lightblue;
+}
+
 .checkbox-container {
     background-color: rgb(221, 161, 171);
     width: 100%;
@@ -25,7 +29,7 @@
 .checkbox .trace {
     width: 90px;
     height: 8px;
-    background-color: white;
+    background-color: blueviolet;
     position: absolute;
     border-radius: 4px;
     transition: 0.5s ease-in-out;
@@ -50,19 +54,19 @@
     display: none;
 }
 
-#toggle:checked + .checkbox .trace:nth-child(1) {
+#toggle:checked+.checkbox .trace:nth-child(1) {
     transform: rotate(45deg);
     top: 47px;
 }
 
-#toggle:checked + .checkbox .trace:nth-child(2) {
-    transform:  translateX(-100px);
+#toggle:checked+.checkbox .trace:nth-child(2) {
+    transform: translateX(-100px);
     width: 30px;
     visibility: hidden;
     opacity: 0;
 }
 
-#toggle:checked + .checkbox .trace:nth-child(3) {
+#toggle:checked+.checkbox .trace:nth-child(3) {
     transform: rotate(-45deg);
     top: 48px;
 }
