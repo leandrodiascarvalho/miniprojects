@@ -1,2 +1,2 @@
-# trilha_programador_front-end
+# Mini Projects
 Repositório criado para aprefeiçoar o aprendizado na área da Programação.
